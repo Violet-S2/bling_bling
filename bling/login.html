@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta title="블링bling">
-        <title>블링bling</title>
+        <title>블링bling-로그인 페이지</title>
         <link href="./css/main_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/login_css.css" type="text/css" rel="stylesheet">
         <script src="./javascript/jquery-1.12.3.js"></script>
         <script src="./javascript/main_js.js" defer type="text/javascript"></script>
     </head>
@@ -65,10 +66,10 @@
                     </div>
                 </div>
                 <div class="logo">
-                    <a href="#"><img src="./images/logo.png" alt="로고이미지"></a>
+                    <a href="./index.html"><img src="./images/logo.png" alt="로고이미지"></a>
                 </div>
                 <div class="login">
-                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="#">로그인</a></li>
                     <li><a href="#">회원가입</a></li>
                     <li><a href="#">고객센터</a></li>
                 </div>
@@ -126,11 +127,17 @@
                 </nav>
             </div>
             <div class="content">
-                <ul class="banner">
-                    <a href="#"><li class="banner_img ban1" id="ban1"></li></a>
-                    <a href="#"><li class="banner_img ban2" id="ban2"></li></a>
-                    <a href="#"><li class="banner_img ban3" id="ban3"></li></a>
-                </ul>
+                <div class="login_input">
+                    <form method="post" action="./login_input.html">
+                        <h3>로그인</h3>
+                        <ul>
+                            <li><p>아이디 :</p><input type="text" class="login_box" id="id" placeholder="아이디를 입력해주세요."></li>
+                            <li><p>비밀번호 :</p><input type="password" class="login_box" id="password" placeholder="비밀번호를 입력해주세요."></li>
+                            <li><input type="submit" id="login_btn" value="로그인" ></li>
+                        </ul>
+                        <div class="login_option_text"><a href="#">아이디 찾기</a><a href="#">비밀번호 찾기</a><a href="#">회원가입</a></div>
+                    </form>
+                </div>
             </div>
             <div class="footer">
                 <div class="footer_logo">
