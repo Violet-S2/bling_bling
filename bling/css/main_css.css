@@ -237,7 +237,7 @@ body{
     position: relative;
     width: 100%;
     height: 1500px;
-    background: #72792b;
+    //background: #72792b;
 }
 .banner{
     position: absolute;
@@ -245,13 +245,13 @@ body{
     left: 0;
     width: 100%;
     height: 1500px;
-    background: #bac453;
+    //background: #bac453;
 }
 .banner_img{
     display: flex;
     width: 100%;
     height: 500px;
-    background: #dce0aa;
+    //background: #dce0aa;
 }
 .banner_img.ban1{
     background: url(../images/banner_1.png) no-repeat center/cover;
