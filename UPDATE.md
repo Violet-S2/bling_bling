@@ -1,3 +1,5 @@
-login페이지가 업데이트 되었습니다.
+login페이지가 업데이트 되었습니다. (2024/07/12)
 
-![login_page](https://github.com/user-attachments/assets/cde6947a-0af7-4afa-b7e9-71615a23dc42)
+create_account페이지가 업데이트 되었습니다. NEW!(2024/07/31)
+
+![블링bling_create_account_page](https://github.com/user-attachments/assets/6626cf2b-9244-4967-8393-182b230ea5bf)
