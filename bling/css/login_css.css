@@ -76,7 +76,7 @@
     opacity: 0.6;
 }
 
-#login_btn{
+.login_btn{
     float: right;
     margin-top: 5px;
     width: 60px;
