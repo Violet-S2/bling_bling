@@ -85,6 +85,11 @@
     border: 1px solid #333333;
     border-radius: 5px;
 }
+.login_btn:hover{
+    font-weight: bold;
+    color: #494949;
+    border: 1px solid #596300;
+}
 .login_option_text{
     position: absolute;
     float: right;

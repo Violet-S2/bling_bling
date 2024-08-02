@@ -143,14 +143,19 @@
     border: 1px solid #ff0000;
 }
 
-#login_btn{
+#create_account_btn{
     float: right;
     margin-top: 5px;
-    width: 60px;
+    width: 80px;
     height: 28px;
     background: #faffcf;
     border: 1px solid #333333;
     border-radius: 5px;
+}
+#create_account_btn:hover{
+    font-weight: bold;
+    color: #494949;
+    border: 1px solid #596300;
 }
 .login_option_text{
     position: absolute;

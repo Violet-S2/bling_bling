@@ -3,10 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta title="블링bling">
-        <title>블링bling</title>
+        <title>블링bling-회원가입 페이지</title>
         <link href="./css/main_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/login_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/create_last_account_css.css" type="text/css" rel="stylesheet">
         <script src="./javascript/jquery-1.12.3.js"></script>
         <script src="./javascript/main_js.js" defer type="text/javascript"></script>
+        <script src="./javascript/create_last_account_js.js" defer type="text/javascript"></script>
     </head>
     <body>
         <div class="wrap">
@@ -65,7 +68,7 @@
                     </div>
                 </div>
                 <div class="logo">
-                    <a href="#"><img src="./images/logo.png" alt="로고이미지"></a>
+                    <a href="./index.html"><img src="./images/logo.png" alt="로고이미지"></a>
                 </div>
                 <div class="login">
                     <li><a href="./login.html">로그인</a></li>
@@ -126,11 +129,15 @@
                 </nav>
             </div>
             <div class="content">
-                <ul class="banner">
-                    <a href="#"><li class="banner_img ban1" id="ban1"></li></a>
-                    <a href="#"><li class="banner_img ban2" id="ban2"></li></a>
-                    <a href="#"><li class="banner_img ban3" id="ban3"></li></a>
-                </ul>
+                <div class="login_input">
+                    <form id="form_check">
+                        <h3>회원가입이 완료되었습니다!</h3>
+                        <ul>
+                            <li><p>홈페이지로 돌아가기</p><a href="./index.html" class="login_btn home_go_btn">홈페이지로 이동</a></li>
+                            <li><p>바로 로그인하러 가기</p><a href="./login.html" class="login_btn login_go_btn">로그인 페이지로 이동</a></li>
+                        </ul>
+                    </form>
+                </div>
             </div>
             <div class="footer">
                 <div class="footer_logo">
