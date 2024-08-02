@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta title="블링bling">
+        <title>블링bling-회원가입 페이지</title>
+        <link href="./css/main_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/login_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/create_account_css.css" type="text/css" rel="stylesheet">
+        <script src="./javascript/jquery-1.12.3.js"></script>
+        <script src="./javascript/main_js.js" defer type="text/javascript"></script>
+        <script src="./javascript/create_account_js.js" defer type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="header">
+                <div class="full_nav">
+                    <li class="full_nav_text">
+                        <a href="#" id="nav_text_btn">
+                            <img src="./images/hamburger_button.png" alt="전체_카테고리_버튼">
+                            <span>전체 카테고리</span></a>
+                    </li>
+                    <div id="full_nav_bak">
+                        <ul class="full_main_nav">
+                            <li><a href="#">귀걸이</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">링</a></li>
+                                    <li><a href="#">드롭</a></li>
+                                    <li><a href="#">피어싱</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">목걸이</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">목걸이</a></li>
+                                    <li><a href="#">체인</a></li>
+                                    <li><a href="#">펜던트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">반지</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">데일리</a></li>
+                                    <li><a href="#">커플링</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="full_main_nav">
+                            <li><a href="#">팔찌</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">팔찌</a></li>
+                                    <li><a href="#">발찌</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">시계</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">여성시계</a></li>
+                                    <li><a href="#">남성시계</a></li>
+                                    <li><a href="#">커플시계</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">잡화류</a>
+                                <ul class="full_sub_nav">
+                                    <li><a href="#">지갑</a></li>
+                                    <li><a href="#">키링</a></li>
+                                    <li><a href="#">가방</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="로고이미지"></a>
+                </div>
+                <div class="login">
+                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="./create_first_account.html">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </div>
+                <div class="search_remove"></div>
+                <div class="search">
+                    <ul>
+                        <li><input type="search" name="nav_search" class="nav_search" placeholder="검색어를 입력해 주세요" maxlength="100"></li>
+                        <li><a href="#"><img src="./images/search_icon.png" alt="검색돋보기"></a></li>
+                    </ul>
+                </div>
+                <div class="nav_bak"></div>
+                <nav class="nav">
+                    <ul class="main_nav">
+                        <li><a href="#">귀걸이</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">링</a></li>
+                                <li><a href="#">드롭</a></li>
+                                <li><a href="#">피어싱</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">목걸이</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">목걸이</a></li>
+                                <li><a href="#">체인</a></li>
+                                <li><a href="#">펜던트</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">반지</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">데일리</a></li>
+                                <li><a href="#">커플링</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">팔찌</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">팔찌</a></li>
+                                <li><a href="#">발찌</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">시계</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">여성시계</a></li>
+                                <li><a href="#">남성시계</a></li>
+                                <li><a href="#">커플시계</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">잡화류</a>
+                            <ul class="sub_nav">
+                                <li><a href="#">지갑</a></li>
+                                <li><a href="#">키링</a></li>
+                                <li><a href="#">가방</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <div class="login_input">
+                    <form id="form_check" method="post" action="./create_last_account.html">
+                        <h3>회원가입</h3>
+                        <ul>
+                            <li><p>아이디 :</p><input type="text" class="login_box" id="create_id" placeholder="아이디를 입력해주세요." maxlength="30" value="">
+                                <div id="add_text_1" class="add_text_box" style="display: none;"><p class="add_text">영문 또는 숫자로 5자리 이상 입력해주세요.</p></div>
+                            </li>
+                            <li><p>비밀번호 :</p><input type="password" class="login_box" id="create_password" placeholder="비밀번호를 입력해주세요." maxlength="255">
+                                <div id="add_text_2" class="add_text_box" style="display: none;"><p class="add_text">영문과 숫자,특수문자를 조합하여 8자리 이상<br> 입력해주세요.</p></div>
+                            </li>
+                            <li><p>비밀번호 확인 :</p><input type="password" class="login_box" id="password_check" placeholder="비밀번호를 다시 입력해주세요." maxlength="255">
+                                <div id="add_text_3" class="add_text_box" style="display: none;"><p class="add_text">비밀번호가 일치하지 않습니다.</p></div>
+                            </li>
+                            <li><p>이름 :</p><input type="text" class="login_box" id="create_name" placeholder="본명을 입력해주세요." maxlength="255"></li>
+                            <li><p>생년월일 :</p><input type="date" class="login_box" id="create_date">
+                                <div id="add_text_4" class="add_text_box" style="display: none;"><p class="add_text">생년월일을 입력해주세요.</p></div>
+                            </li>
+                            <li class="gender"><p>성별 :</p>
+                                <ul>
+                                    <li><input type="radio" class="login_box gender_radio" name="gender_r" id="create_gender_1" value="선택안함"><label for="create_gender_1">선택안함</label></li>
+                                    <li><input type="radio" class="login_box gender_radio" name="gender_r" id="create_gender_2" value="남자"><label for="create_gender_2">남자</label></li>
+                                    <li><input type="radio" class="login_box gender_radio" name="gender_r" id="create_gender_3" value="여자"><label for="create_gender_3">여자</label></li>
+                                </ul>
+                                <div id="add_text_5" class="add_text_box" style="display: none;"><p class="add_text">성별을 입력해주세요.</p></div>
+                            </li>
+                            <li><p>전화번호 (선택) :</p><input type="tel" class="login_box" id="create_tel" placeholder="전화번호를 입력해주세요."></li>
+                            <li><p>이메일 (선택) :</p><input type="email" class="login_box" id="create_email" placeholder="이메일을 입력해주세요."></li>
+                            <li><input type="submit" class="login_btn" id="create_account_btn" value="회원가입"></li>
+                        </ul>
+                        <div class="login_option_text"><a href="#">아이디 찾기</a><a href="#">비밀번호 찾기</a><a href="./create_first_account.html">회원가입</a></div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_logo">
+                    <img src="./images/logo.png" alt="푸터로고">
+                </div>
+                <div class="copy">
+                    <li>주소 : 서울특별시 종로구 사직로 161</li>
+                    <li>TEL : 02-1234-5678</li>
+                    <li>FAX : 02-1234-5678</li>
+                    <li>사업자등록번호 : 000000000000</li>
+                    <li>대표이사 : 홍길동</li>
+                    <li>Copyright 2023 블링bling. All Rights Reserved.</li>
+                </div>
+                <div class="sns">
+                    <li><a href="#"><img src="./images/sns_icon_1.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="./images/sns_icon_2.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="./images/sns_icon_3.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="./images/sns_icon_4.png" alt="공유하기"></a></li>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
