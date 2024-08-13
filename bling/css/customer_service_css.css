@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+}
+.title{
+    position: relative;
+    width: 300px;
+    top: 40px;
+    left: 490px;
+    font-size: 20px;
+}
+
+.service_icon{
+    margin: auto;
+    position: relative;
+    width: 1070px;
+    height: 330px;
+    margin-bottom: 10px;
+    border: 2px solid #edff48;
+}
+.service_icon > li{
+    position: relative;
+    float: left;
+    top: 20px;
+    left: 140px;
+    margin: 55px;
+}
+.service_icon > li > a{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    //background: #dddddd;
+}
+.service_icon > li > a > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+}
+.service_icon > li > a > span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.service_icon > li > a:hover > img{
+    transform: scale(1.1);
+    margin-bottom: 8px;
+}
+.service_icon > li > a:hover > span{
+    font-size: 20px;
+    color: #afbc35;
+}
+.service_tel{
+    margin: auto;
+    position: relative;
+    width: 1070px;
+    height: 200px;
+    margin-bottom: 10px;
+    background: #d6d36d;
+}
+.service_tel > li{
+    position: relative;
+    float: left;
+    margin-bottom: 5px;
+    //background: #edff48;
+}
+.service_text_title{
+    float: left;
+    top: 65px;
+    left: 150px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+.service_tel > li:nth-child(2){
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.service_tel > li:nth-child(3){
+    margin-left: 395px;
+}
+.service_tel > li:last-child{
+    margin-left: 395px;
+}
+.tel_text{
+    position: relative;
+    top: -12px;
+}
+.service_message{
+    margin: auto;
+    position: relative;
+    width: 1070px;
+    height: 200px;
+    margin-bottom: 10px;
+    background: #d6d36d;
+}
+.service_message > li{
+    position: relative;
+    float: left;
+    margin-bottom: 5px;
+    //background: #edff48;
+}
+.service_message > li:nth-child(2){
+    margin-top: 20px;
+    margin-left: 305px;
+}
+.service_message > li:nth-child(3){
+    margin-left: 365px;
+}
+.message_btn{
+    width: 40%;
+    margin-top: 7px;
+    margin-left: 452px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 30px;
+    background: #fffc9d;
+}
+.message_btn > a{
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+.mes_kakao:hover > a{
+    color: #f9e103;
+    background: #3b1d1d;
+}
+.mes_naver:hover > a{
+    color: #ffffff;
+    background: #03c75a;
+}
+.mes_bling:hover > a{
+    color: #afbc35;
+    background: #ffffff;
+}
+.service_faq{
+    margin: auto;
+    position: relative;
+    width: 1070px;
+    height: 800px;
+    margin-bottom: 10px;
+    background: #d6d36d;
+}
+.service_faq > li{
+    position: relative;
+    float: left;
+}
+.service_faq > .service_text_title{
+    top: 35px;
+    margin: 0;
+}
+.faq_list{
+    position: relative;
+    top: 90px;
+    width: 77%;
+    overflow: hidden;
+}
+.faq_title{
+    margin-bottom: 10px;
+    font-size: 18px;
+    //background: #fffc9d;
+}
+.faq_title > a{
+    display: block;
+    padding: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 12px 12px 12px 12px;
+    background: #ffffff;
+}
+.faq_title > a:hover{
+    color: #afbc35;
+    font-weight: bold;
+    border: 2px solid #fffc9d;
+}
+.faq_title > a:hover > span{
+    color: #afbc35;
+}
+.faq_title > a > span{
+    position: relative;
+    float: right;
+    right: 20px;
+}
+.faq_title_icon.on::after{
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '▲';
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+}
+.faq_text{
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: -10px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 23px;
+    display: none;
+    background: #fffc9d;
+}

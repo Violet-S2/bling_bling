@@ -3,13 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta title="블링bling">
-        <title>블링bling-회원가입 페이지</title>
+        <title>블링bling-고객센터</title>
         <link href="./css/main_css.css" type="text/css" rel="stylesheet">
-        <link href="./css/login_css.css" type="text/css" rel="stylesheet">
-        <link href="./css/create_last_account_css.css" type="text/css" rel="stylesheet">
+        <link href="./css/customer_service_css.css" type="text/css" rel="stylesheet">
         <script src="./javascript/jquery-1.12.3.js"></script>
         <script src="./javascript/main_js.js" defer type="text/javascript"></script>
-        <script src="./javascript/create_last_account_js.js" defer type="text/javascript"></script>
+        <script src="./javascript/customer_service_js.js" defer type="text/javascript"></script>
     </head>
     <body>
         <div class="wrap">
@@ -129,15 +128,89 @@
                 </nav>
             </div>
             <div class="content">
-                <div class="login_input">
-                    <form id="form_check">
-                        <h3>회원가입이 완료되었습니다!</h3>
-                        <ul>
-                            <li><p>홈페이지로 돌아가기</p><a href="./index.html" class="login_btn home_go_btn">홈페이지로 이동</a></li>
-                            <li><p>바로 로그인하러 가기</p><a href="./login.html" class="login_btn login_go_btn">로그인 페이지로 이동</a></li>
-                        </ul>
-                    </form>
-                </div>
+                <ul class="service_icon">
+                    <h3 class="title">고객센터</h3>
+                    <li><a href="" id="service_tel_btn"><img src="./images/tel_icon.png" alt="tel"><span>전화상담</span></a></li>
+                    <li><a href="" id="service_message_btn"><img src="./images/message_icon.png" alt="message"><span>문자상담</span></a></li>
+                    <li><a href="" id="service_faq_btn"><img src="./images/faq_icon.png" alt="faq"><span>자주 묻는 질문</span></a></li>
+                </ul>
+                <ul class="service_tel">
+                    <li class="service_text_title">전화상담 <br>1600-1234</li>
+                    <li>● 연결음에 따라 해당 번호를 클릭하시면 자동응답 서비스로 연결됩니다.
+                        <p class="tel_text">
+                            <br>  1 : 상품관련 문의 &nbsp; 4 : 주문취소 문의 &nbsp; 9 : 상담사 연결
+                            <br>  2 : 배송관련 문의 &nbsp; 5 : 주문제작 문의
+                            <br>  3 : 반송관련 문의 &nbsp; 6 : A/S 문의
+                        </p>
+                    </li>
+                    <li>● 자동응답 서비스로 24시간 어느때에나 무료로 상담받으실 수 있습니다.</li>
+                    <li>● 1:1 고객문의 서비스는 9시~17시 사이에 문의 가능합니다.</li>
+                </ul>
+                <ul class="service_message">
+                    <li class="service_text_title">문자상담 <br>블링bling</li>
+                    <li>● '채팅 서비스 바로가기'를 클릭하여 해당 서비스를 통해 문의하실 수 있습니다.</li>
+                    <li class="message_btn mes_kakao"><a href="#">'카카오톡'으로 문의하기</a></li>
+                    <li class="message_btn mes_naver"><a href="#">'네이버톡'으로 문의하기</a></li>
+                    <li class="message_btn mes_bling"><a href="#">'블링bling톡'으로 문의하기</a></li>
+                </ul>
+                <ul class="service_faq">
+                    <li class="service_text_title">자주 묻는 질문</li>
+                    <ul class="faq_list">
+                        <li class="faq_title"><a href="#">● 결제방법<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                신용카드로 결제 : 신용카드를 사용하여 결제합니다. <br>
+                                계좌이체로 결제 : 각 은행별로 표시된 계좌번호를 통하여 결제합니다.<br>
+                                포인트로 결제 : 결제 시 적립된 포인트를 사용하여 결제합니다. <br>
+                                휴대폰으로 결제 : 휴대폰을 사용하여 결제합니다. <br>
+                                무통장 입금 결제 : 각 은행별로 발급된 가상계좌를 통하여 결제합니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"><a href="#">● 배송 기간<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                배송 기간은 평균적으로 2~3일 정도 소요됩니다.<br>
+                                '제주도'나 도서지역은 일주일 정도 소요됩니다.<br>
+                                우천, 폭설 등으로 인해 배송 기간이 지연될 수 있습니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"><a href="#">● 주문 제작 기간<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                주문 제작은 약 12~14일 정도의 시간이 소요됩니다. <br>
+                                배송기간까지는 총 15~16일 정도의 시간이 소요됩니다.<br>
+                                '제주도'나 도서지역은 약 20일 정도 소요됩니다.<br>
+                                우천, 폭설 등으로 인해 배송 기간이 지연될 수 있습니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"><a href="#">● 환불 방법<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                신용카드로 결제 : 사전에 입력한 신용카드를 통하여 금액이 환불됩니다. <br>
+                                계좌이체로 결제 : 계좌이체를 진행한 계좌번호를 통하여 금액이 환불됩니다.<br>
+                                포인트로 결제 : 결제 시 사용된 포인트로 환불해드립니다. <br>
+                                휴대폰으로 결제 : 사전에 입력하신 휴대폰 번호를 통하여 금액이 환불됩니다. <br>
+                                무통장 입금 결제 : 결제 전 선택하신 방법으로 금액이 환불됩니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"><a href="#">● A/S 방법<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                1) 해당 제품의 파손 및 회손 상태를 '전화상담'이나 '문자상담'을 통하여 문의합니다.<br>
+                                2) 해당 제품을 반송, 혹은 매장으로 가져오시면 상담 내용을 바탕으로 A/S를 진행합니다.<br>
+                                3) A/S 기간은 일주일 정도의 시간이 소요되며, 상태에 따라 시간이 더 소요될 수 있습니다.<br>
+                                4) A/S가 끝난 후, 전화 혹은 문자를 통하여 고객님께 알려드립니다.<br>
+                                5) 해당 제품을 배송, 혹은 매장에서 수령가능한 날짜에 맞추어 찾아와주시면 됩니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"><a href="#">● 계정 관련<span class="faq_title_icon">▼</span></a>
+                            <p class="faq_text">
+                                계정관리 : my페이지에 있는 '정보 수정'페이지에서 계정 정보를 변경 가능합니다. <br>
+                                장바구니 : 장바구니 목록은 최대 30개까지 담을 수 있습니다.<br>
+                                구매목록 : my페이지에 있는 '구매목록'페이지에서 목록을 확인할 수 있습니다. <br>
+                                계정삭제 : my페이지 하단에 있는 '계정삭제'버튼을 클릭하시면 계정이 삭제되며, <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                계정 삭제 시, 상품을 구입한 내역은 1년동안 보존되며, 후에 모든 정보는 파기됩니다.<br>
+                            </p>
+                        </li>
+                        <li class="faq_title"></li>
+                    </ul>
+                </ul>
             </div>
             <div class="footer">
                 <div class="footer_logo">
