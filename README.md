@@ -6,5 +6,7 @@ login페이지가 업데이트 되었습니다. (2024/07/12)
 
 create_account페이지가 업데이트 되었습니다. (2024/07/31)
 
-create_first_account, create_last_account페이지가 업데이트 되었습니다. NEW!(2024/08/02)
-![블링bling_create_first_account_page](https://github.com/user-attachments/assets/7076ee3c-e4ff-4ce7-9341-de1d41e29516)
+create_first_account, create_last_account페이지가 업데이트 되었습니다. (2024/08/02)
+
+customer_service페이지가 업데이트 되었습니다. NEW!(2024/08/13)
+![블링bling_customer_service_page](https://github.com/user-attachments/assets/4b1545cd-1b93-4248-85d7-d39d79f01459)
