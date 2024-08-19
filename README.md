@@ -8,5 +8,7 @@ create_account페이지가 업데이트 되었습니다. (2024/07/31)
 
 create_first_account, create_last_account페이지가 업데이트 되었습니다. (2024/08/02)
 
-customer_service페이지가 업데이트 되었습니다. NEW!(2024/08/13)
-![블링bling_customer_service_page](https://github.com/user-attachments/assets/4b1545cd-1b93-4248-85d7-d39d79f01459)
+customer_service페이지가 업데이트 되었습니다. (2024/08/13)
+
+customer_kategorie_earring_ring페이지가 업데이트 되었습니다. NEW!(2024/08/19)
+![블링bling_kategorie_earring_ring_page](https://github.com/user-attachments/assets/a3c61c46-acfa-44c1-a963-1d5318d1f76e)
