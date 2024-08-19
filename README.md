@@ -11,4 +11,5 @@ create_first_account, create_last_account페이지가 업데이트 되었습니�
 customer_service페이지가 업데이트 되었습니다. (2024/08/13)
 
 customer_kategorie_earring_ring페이지가 업데이트 되었습니다. NEW!(2024/08/19)
+(아직 제작이 완료되지 않은 버전입니다.[30%완성])
 ![블링bling_kategorie_earring_ring_page](https://github.com/user-attachments/assets/a3c61c46-acfa-44c1-a963-1d5318d1f76e)
