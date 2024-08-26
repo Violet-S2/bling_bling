@@ -133,17 +133,33 @@
 .product_list > a:hover{
     opacity: 0.8;
 }
+.g1_text{
+    display: none;
+}
+.g1_text.on{
+    display: block;
+}
 .product_list.g1{
     display: flex;
     width: 100%;
     height: 100%;
     //background: #933857;
 }
+.product_list.g1 > a:hover{
+    opacity: 1;
+}
+.product_list.g1 > a:hover > p , .product_list.g1 > a:hover > span{
+    font-size: 22px;
+}
+.product_list.g1 > a:hover > img{
+    transform: scale(1.02);
+}
 .product_list.g1 > a > img{
     position: relative;
     float: left;
-    left: 10%;
+    left: 3%;
     transform: translateX(-10%);
+    transition: transform 0.3s ease-in-out;
     //background: #f6f8b4;
 }
 .product_list.g1 > a > p{
@@ -151,6 +167,7 @@
     float: left;
     top: 40px;
     left: 50px;
+    margin-left: 10px;
     font-size: 20px;
     //background: #f6f8b4;
 }
